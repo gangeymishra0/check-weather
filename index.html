@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 bg-dark text-light" style="display: grid; align-content: center; height: 65px;">
+                Check weather...
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8 bg-light" style=" display: grid; align-content: center;"><input type="text" id="textId" style="width: 1000px;height: 44px;" placeholder="Enter location..."></div>
+            <div class="col-4 bg-light"  style="height: 50px; display: grid; align-content:center;">
+                    <button type="button" onclick="Makecall()" class="btn btn-primary">check weather</button>
+            </div>
+        </div>
+        <div id="ref1" class="row" style="height: 190px;">
+            <div class="col-12 bg-dark mt-1 text-light"></div>
+        </div>       
+        <div id="ref2" class="row" style="height: 200px;">
+            <div class="col-4 bg-light mt-1"></div>
+            <div class="col-4 bg-light mt-1"></div>
+            <div class="col-4 bg-light mt-1"></div>
+        </div>
+        <div id="ref3" class="row" style="height: 200px;">
+            <div class="col-4 bg-light mt-1"></div>
+            <div class="col-4 bg-light mt-1"></div>
+            <div class="col-4 bg-light mt-1"></div>
+        </div>
+    </div>
+</body>
+</html>
